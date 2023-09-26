@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/HdsysT4/Health.png",
+    "category": "Health",
+    "title": "Support Medical Care",
+    "description": "Help provide medical care to those in need.",
+    "price": 100,
+    "backgroundColor": "#0052FF26",
+    "textColor": "#0052FF"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/KxDtNRS/Education.png",
+    "category": "Education",
+    "title": "Empower Young Minds",
+    "description": "Contribute to education initiatives for children.",
+    "price": 75,
+    "backgroundColor": "#FF444A26",
+    "textColor": "#FF444A"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/2WyQrNV/Clothing.png",
+    "category": "Clothing",
+    "title": "Warmth for Winter",
+    "description": "Donate clothing to keep people warm in winter.",
+    "price": 50,
+    "backgroundColor": "#79C23F26",
+    "textColor": "#79C23F"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/fYRQxW9/Food.png",
+    "category": "Food",
+    "title": "Feed the Hungry",
+    "description": "Support initiatives to provide food to the hungry.",
+    "price": 60,
+    "backgroundColor": "#F8714726",
+    "textColor": "#F87147"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/HdsysT4/Health.png",
+    "category": "Health",
+    "title": "Medical Supplies Drive",
+    "description": "Collect medical supplies for healthcare facilities.",
+    "price": 90,
+    "backgroundColor": "#0052FF26",
+    "textColor": "#0052FF"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/KxDtNRS/Education.pngg",
+    "category": "Education",
+    "title": "Scholarship Fundraiser",
+    "description": "Fund scholarships for underprivileged students.",
+    "price": 80,
+    "backgroundColor": "#FF444A26",
+    "textColor": "#FF444A"
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/2WyQrNV/Clothing.png",
+    "category": "Clothing",
+    "title": "Winter Clothing Drive",
+    "description": "Collect winter clothing for those in need.",
+    "price": 40,
+    "backgroundColor": "#79C23F26",
+    "textColor": "#79C23F"
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/fYRQxW9/Food.png",
+    "category": "Food",
+    "title": "Emergency Food Relief",
+    "description": "Provide emergency food relief to vulnerable populations.",
+    "price": 70,
+    "backgroundColor": "#F8714726",
+    "textColor": "#F87147"
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/HdsysT4/Health.png",
+    "category": "Health",
+    "title": "Medical Research Support",
+    "description": "Donate to advance medical research and treatments.",
+    "price": 120,
+    "backgroundColor": "#0052FF26",
+    "textColor": "#0052FF"
+  },
+  {
+    "id": 10,
+    "img": "https://i.ibb.co/KxDtNRS/Education.png",
+    "category": "Education",
+    "title": "Digital Learning Initiative",
+    "description": "Support digital learning programs for students.",
+    "price": 55,
+    "backgroundColor": "#FF444A26",
+    "textColor": "#FF444A"
+  },
+  {
+    "id": 11,
+    "img": "https://i.ibb.co/2WyQrNV/Clothing.png",
+    "category": "Clothing",
+    "title": "Back-to-School Clothes",
+    "description": "Provide clothing for children returning to school.",
+    "price": 45,
+    "backgroundColor": "#79C23F26",
+    "textColor": "#79C23F"
+  },
+  {
+    "id": 12,
+    "img": "https://i.ibb.co/fYRQxW9/Food.png",
+    "category": "Food",
+    "title": "Meals for Seniors",
+    "description": "Deliver meals to elderly individuals in need.",
+    "price": 65,
+    "backgroundColor": "#F8714726",
+    "textColor": "#F87147"
+  }
+]
