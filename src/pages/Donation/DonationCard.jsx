@@ -1,10 +1,37 @@
 import toast, { Toaster } from "react-hot-toast";
+import swal from "sweetalert";
 
-const notify = () => toast("Thank you for donation.");
 
 const DonationCard = ({ donation }) => {
+    const { id, img, title, textColor, description, price } = donation || {};
+    
+    const handleAddToDonate = () => {
 
-  const { id, img, title, textColor, description, price } = donation || {};
+        const addDonateItem = [];
+
+        const donateItem = JSON.parse(localStorage.getItem('donations'))
+
+
+            if (!donateItem) {
+                addDonateItem.push(donation)
+                localStorage.setItem("donations", JSON.stringify(addDonateItem));
+                // toast("Thank you for donation.");
+                swal("Thank you", "Thank you for donation.", "success");
+            } else {
+                const isExits = donateItem.find(donation => donation.id == id)
+                if (!isExits) {
+                    addDonateItem.push(...donateItem, donation);
+                    localStorage.setItem(
+                      "donations",
+                      JSON.stringify(addDonateItem)
+                    );
+                } else {
+                    // toast("Thank you. Already Added");
+                    swal("Oops!", "The donation already added.", "error");
+                }
+                
+        }
+    }
   return (
     <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
       <div className="relative">
@@ -12,7 +39,7 @@ const DonationCard = ({ donation }) => {
         <div className="absolute bottom-0 bg-[#0B0B0B80] w-full p-7">
           <button
             className={`bg-[${textColor}] px-3 py-2 w-fit text-white font-semibold`}
-            onClick={notify}
+            onClick={handleAddToDonate}
           >
             Donate ${price}
           </button>
