@@ -1,6 +1,10 @@
+import toast, { Toaster } from "react-hot-toast";
+
+const notify = () => toast("Thank you for donation.");
+
 const DonationCard = ({ donation }) => {
-  const { id, img, title, textColor, description, price } =
-    donation || {};
+
+  const { id, img, title, textColor, description, price } = donation || {};
   return (
     <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
       <div className="relative">
@@ -8,9 +12,11 @@ const DonationCard = ({ donation }) => {
         <div className="absolute bottom-0 bg-[#0B0B0B80] w-full p-7">
           <button
             className={`bg-[${textColor}] px-3 py-2 w-fit text-white font-semibold`}
+            onClick={notify}
           >
             Donate ${price}
           </button>
+          <Toaster />
         </div>
       </div>
       <div className="p-6">
