@@ -11,7 +11,6 @@ const DonationCard = ({ donation }) => {
 
         const donateItem = JSON.parse(localStorage.getItem('donations'))
 
-
             if (!donateItem) {
                 addDonateItem.push(donation)
                 localStorage.setItem("donations", JSON.stringify(addDonateItem));
