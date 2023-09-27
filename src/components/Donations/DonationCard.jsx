@@ -12,7 +12,7 @@ const DonationCard = ({ donation }) => {
           <img src={img} alt="Donation" />
           <div className="p-6">
             <small
-              className={`bg-${backgroundColor} text-[${textColor}] w-fit p-2 rounded-lg`}
+              className={`bg-[${backgroundColor}] text-[${textColor}] w-fit p-2 rounded-lg`}
             >
               {category}
             </small>
