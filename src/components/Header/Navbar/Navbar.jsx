@@ -4,10 +4,10 @@ import Logo from "./Logo";
 const Navbar = () => {
   return (
     <div>
-      <nav className="flex justify-between items-center py-5">
+      <nav className="md:flex md:justify-between items-center py-5">
         <Logo></Logo>
 
-        <ul className="flex gap-10">
+        <ul className="flex justify-evenly pt-5 gap-10">
           <li>
             <NavLink
               to="/"

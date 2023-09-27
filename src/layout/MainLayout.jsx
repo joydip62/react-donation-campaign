@@ -13,7 +13,7 @@ const MainLayout = () => {
     }
   },[loca.pathname])
     return (
-      <div className="max-w-[1300px] m-auto">
+      <div className="max-w-[1300px] m-auto p-5">
         <Navbar></Navbar>
         <div className="py-10">
           <Outlet></Outlet>

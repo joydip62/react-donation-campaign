@@ -1,9 +1,9 @@
 
 const Logo = () => {
     return (
-        <div>
-            <img src="./img/Logo.png" alt="" />
-        </div>
+      <div>
+        <img src="./img/Logo.png" alt="" className="block m-auto text-center" />
+      </div>
     );
 };
 

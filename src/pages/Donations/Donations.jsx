@@ -30,7 +30,7 @@ const Donations = () => {
         noFound
       ) : (
         <div>
-          <div className="grid grid-cols-2 gap-5 mt-10">
+          <div className="grid lg:grid-cols-2 gap-5 mt-10">
             {isShow
               ? donations.map((donate) => (
                   <DonationsCard

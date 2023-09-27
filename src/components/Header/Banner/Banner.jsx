@@ -11,7 +11,7 @@ const Banner = () => {
           />
 
           <div className="absolute w-full top-2/4">
-            <h1 className="text-5xl font-extrabold m-auto text-center pb-5">
+            <h1 className="text-2xl md:text-3xl lg:text-5xl font-extrabold m-auto text-center pb-5">
               I Grow By Helping People In Need
             </h1>
             <div className="text-center">
