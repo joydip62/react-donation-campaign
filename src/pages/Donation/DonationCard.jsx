@@ -41,7 +41,8 @@ const DonationCard = ({ donation }) => {
         <img src={img} alt="img-blur-shadow" className="w-full" />
         <div className="absolute bottom-0 bg-[#0B0B0B80] w-full p-7">
           <button
-            className={`bg-[${textColor}] px-3 py-2 w-fit text-white font-semibold`}
+            className="px-3 py-2 w-fit text-white font-semibold"
+            style={{ background: `${textColor}` }}
             onClick={handleAddToDonate}
           >
             Donate ${price}
