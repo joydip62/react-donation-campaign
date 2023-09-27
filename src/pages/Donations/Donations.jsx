@@ -6,10 +6,15 @@ const Donations = () => {
   const [noFound, setNoFound] = useState("");
   const [isShow, setIsShow] = useState(false);
 
+  const [totalDonationPrice, setTotalDonationPrice] = useState(0);
+
   useEffect(() => {
     const donateItem = JSON.parse(localStorage.getItem("donations"));
     if (donateItem) {
       setDonations(donateItem);
+      
+      const donationPrice = donateItem.reduce((preItem, currItm) => preItem + currItm.price, 0)
+      setTotalDonationPrice(donationPrice);
     } else {
       setNoFound(
         <h2 className="h-[80vh] text-5xl font-extrabold flex justify-center items-center">

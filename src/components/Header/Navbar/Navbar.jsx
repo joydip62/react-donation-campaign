@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <div>
       <nav className="flex justify-between items-center py-5">
-              <Logo></Logo>
-              
+        <Logo></Logo>
+
         <ul className="flex gap-10">
           <li>
             <NavLink
@@ -49,7 +49,7 @@ const Navbar = () => {
                   : ""
               }
             >
-              Favorite
+              Statistics
             </NavLink>
           </li>
         </ul>
