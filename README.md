@@ -1,8 +1,16 @@
-# React + Vite
+# Course-Registration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Questions
 
-Currently, two official plugins are available:
+- Add at least 3 Project features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Answer
+
+Project features
+
+##
+
+- When click the donation card redirect to the donation details page.
+- After donate there are show success message and if this card already donated show warning message.
+- In the donation page conditional button. For example if there are more then 4data then there are show see more button.
+- After donation we can see the Statistics. How much we donate and how much total to be donate.
