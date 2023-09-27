@@ -19,11 +19,13 @@ const DonationCard = ({ donation }) => {
             } else {
                 const isExits = donateItem.find(donation => donation.id == id)
                 if (!isExits) {
-                    addDonateItem.push(...donateItem, donation);
-                    localStorage.setItem(
-                      "donations",
-                      JSON.stringify(addDonateItem)
-                    );
+                  addDonateItem.push(...donateItem, donation);
+                  localStorage.setItem(
+                    "donations",
+                    JSON.stringify(addDonateItem)
+                  );
+                  // toast("Thank you for donation.");
+                  swal("Thank you", "Thank you for donation.", "success");
                 } else {
                     // toast("Thank you. Already Added");
                     swal("Oops!", "The donation already added.", "error");

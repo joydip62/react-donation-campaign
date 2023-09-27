@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import DonationCard from "../Donation/DonationCard";
+import DonationsCard from "./DonationsCard";
 
 
 const Donations = () => {
@@ -24,7 +24,7 @@ const Donations = () => {
         {noFound ? noFound :
             <div>
                 <div className="grid grid-cols-2 gap-5 mt-10">
-                    {donations.map(donate=><DonationCard key={donate.id} donate={donate}></DonationCard>)}
+                    {donations.map(donate=><DonationsCard key={donate.id} donate={donate}></DonationsCard>)}
             </div>
         </div> }
     </div>;
