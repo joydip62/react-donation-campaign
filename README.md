@@ -1,11 +1,5 @@
 # Donation Campaign
 
-## Questions
-
-- Add at least 3 Project features
-
-## Answer
-
 Project features
 
 ##
